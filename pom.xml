@@ -62,6 +62,20 @@
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derbytools</artifactId>
 		</dependency>
+		<!-- dependencias para 2º tutorial sobre Spring JPA y derby -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derby</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derbytools</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
