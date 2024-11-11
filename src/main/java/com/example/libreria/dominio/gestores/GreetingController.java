@@ -3,7 +3,7 @@ package com.example.libreria.dominio.gestores;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import es.uclm.library.persistency.GreetingDAO;
+import com.example.libreria.persistencia.*;
 @Controller
 public class GreetingController {
     private static final Logger log = LoggerFactory.getLogger(GreetingController.class);

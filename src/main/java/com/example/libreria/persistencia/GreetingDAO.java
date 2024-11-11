@@ -2,7 +2,7 @@ package com.example.libreria.persistencia;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import es.uclm.library.business.entity.Greeting;
+import com.example.libreria.dominio.entidades.Greeting;
 @Repository
 public interface GreetingDAO extends JpaRepository<Greeting, Long> {
 /*
