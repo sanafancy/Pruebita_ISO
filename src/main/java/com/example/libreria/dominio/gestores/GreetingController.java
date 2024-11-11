@@ -3,14 +3,13 @@ package com.example.libreria.dominio.gestores;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import com.example.libreria.dominio.entidades.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.example.libreria.dominio.entidades.Greeting;
+import org.springframework.beans.factory.annotation.Autowired;
 import com.example.libreria.persistencia.GreetingDAO;
-
 @Controller
 public class GreetingController {
     private static final Logger log = LoggerFactory.getLogger(GreetingController.class);
